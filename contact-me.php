@@ -48,15 +48,7 @@
 			$message = clear_input($message);
 
 			include 'connection.php';
-
-			echo $name;
-			echo '<br>';
-			echo $email;
-			echo '<br>';
-			echo $message;
-			echo '<br>';
-
-			$sql = "INSERT INTO contact (name, email, message) VALUES (`$name`, `$email`, `$message`)";
+			$sql = "INSERT INTO contact (name, email, message) VALUES ('$name', '$email', '$message')";
 
 			if ($connection->query($sql)) {
 				include('success-template.html');
