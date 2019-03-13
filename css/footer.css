@@ -1,0 +1,37 @@
+.footer {
+  background-color: #E9E9E9;
+}
+
+.footer-title {
+  color: #E9B8AC;
+  font-family: 'Cookie', cursive;
+}
+
+.social-media-list li {
+  display: inline;
+}
+
+.social-media-list li a:hover {
+  text-decoration: none;
+}
+
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.report {
+  padding: 25px;
+  background-color: white;
+}
+
+.report a {
+  color: #E9B8AC;
+  transition: .6s;
+}
+
+.report a:hover {
+  color: #9e786e;
+  text-decoration: none;
+}

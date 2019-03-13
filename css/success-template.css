@@ -1,0 +1,14 @@
+.success-template-container {
+  margin-top: 20px;
+  background-color: #E9B8AC;
+  padding: 20px;
+}
+
+.success-message-title {
+  font-family: 'Cookie', cursive;
+  color: white;
+}
+
+.success-message-content {
+  color: white;
+}

@@ -1,0 +1,16 @@
+.contact-title {
+	color: #E9B8AC;
+	font-family: 'Cookie', cursive;
+}
+
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #d6d6d6;
+	transition: 0.6s
+}
+
+input:focus {
+	background-color: #e6e6e6;
+}

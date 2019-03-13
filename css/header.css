@@ -1,0 +1,17 @@
+.navbar {
+	background-color: #E9B8AC;
+}
+
+.nav-link {
+	color: white;
+	transition: 0.6s;
+}
+
+.nav-link:hover {
+	color: #a2a2a2;
+}
+
+.navbar-brand {
+	color: white;
+	font-family: 'Cookie', cursive;
+}
